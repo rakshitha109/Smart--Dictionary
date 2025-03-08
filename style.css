@@ -1,0 +1,19 @@
+.hover-tooltip {
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    max-width: 250px;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+}
+.play-audio {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffcc00;
+}

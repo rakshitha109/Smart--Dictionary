@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Dictionary",
+    "version": "1.0",
+    "description": "Select a word to get its meaning and pronunciation!",
+    "permissions": ["storage", "activeTab"],
+    "host_permissions": ["https://api.dictionaryapi.dev/*"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
